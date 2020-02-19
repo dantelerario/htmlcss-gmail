@@ -6,6 +6,8 @@ body {
   margin: 0;
   background-image: url("../img/bg.jpg");
   background-size: cover;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* header properties */
@@ -15,10 +17,10 @@ body {
   padding: 10px;
   color: #63676c;
   font-size: 25px;
-  margin-left: 30%;
-  width: 800px;
+  margin-left: 18%;
+  width: 1035px;
   height: auto;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #63676c;
 }
 header img {
   width: 100px;
@@ -36,10 +38,10 @@ header span {
   width: 50px;
   height: auto;
   padding-left: -200px;
-  padding-top: 15px;
+  padding-top: 25px;
   padding-bottom: 15px;
-  margin-top: -10px;
-  margin-left: 350px;
+  margin-top: -50px;
+  margin-left: 278px;
   color: #63676c;
   border-bottom: 1px solid #63676c;
   width: 210px;
@@ -79,12 +81,11 @@ header span {
 /* main properties */
 #div-main {
   margin-top: 20px;
-  margin-left: 30%;
+  margin-left: 33%;
   width: 800px;
   height: auto;
   text-align: justify;
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
 }
 /* search */
 .searchfield {
@@ -141,9 +142,10 @@ header span {
 
 /* footer */
 footer {
-  width: 800px;
-  margin-left: 30%;
+  width: 1035px;
+  margin-left: 18%;
   padding-top: 20px;
   color: #63676c;
   font-weight: 700;
+  border-top: 1px solid #63676c;
 }
