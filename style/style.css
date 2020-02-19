@@ -33,16 +33,47 @@ header span {
 #div-aside {
   float: left;
   display: inline-block;
-  width: 100px;
-  height: 400px;
-  background-color: rgba(255, 255,255, 0.8)
-  padding: 300px;
-  margin-left: 450px;
-  border: 0.5px solid black;
-  border-radius: 15px;
+  width: 50px;
+  height: auto;
+  padding-left: -200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: -10px;
+  margin-left: 350px;
+  color: #63676c;
+  border-bottom: 1px solid #63676c;
+  width: 210px;
 }
-aside {
 
+#div-aside h2 {
+  font-weight: 400;
+  border-bottom: 1px solid #63676c;
+  padding-bottom: 15px;
+  width: 210px;
+}
+
+.div-asidebar {
+  text-align: justify;
+  width: 200px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: auto;
+  padding-left: 10px;
+  margin: 5px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
+.online::before {
+  content: '•   ';
+  color: green;
+  font-size: 20px;
+}
+
+.offline::before {
+  content: '•   ';
+  color: red;
+  font-size: 20px;
 }
 
 /* main properties */
@@ -90,7 +121,7 @@ aside {
   padding: 5px;
   border: 0.5px solid black;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.8)
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .attributispan::after {
   content: '...'
