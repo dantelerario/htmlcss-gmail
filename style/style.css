@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', serif;
+  margin: 0;
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+}
+
+/* header properties */
+#div-header {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px;
+  color: #63676c;
+  font-size: 25px;
+  margin-left: 30%;
+  width: 800px;
+  height: auto;
+  border-bottom: 1px solid black;
+}
+header img {
+  width: 100px;
+  height: auto;
+  vertical-align: -23px;
+}
+header span {
+  font-size: 40px;
+}
+
+/* main properties */
+#div-main {
+  margin-top: 20px;
+  margin-left: 30%;
+  width: 800px;
+  height: auto;
+  text-align: justify;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+/* search */
+.searchfield {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.button {
+  background-color: #63676c;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #63676c
+}
+/* mail non lette */
+#unreadmail {
+  padding: 10px;
+}
+#unreadmail span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #63676c;
+  border-radius: 50%;
+}
+/* lista email */
+.email-row {
+  width: 800px;
+  margin: 5px;
+  padding: 5px;
+  border: 0.5px solid black;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.8)
+}
+.attributispan::after {
+  content: '...'
+}
+.read strong {
+  font-weight: 400;
+}
+.read span {
+  font-weight: 400;
+}
+.unread strong {
+  font-weight: 700;
+}
+.unread span {
+  font-weight: 700;
+}
+
+/* footer */
+footer {
+  width: 800px;
+  margin-left: 30%;
+  padding-top: 20px;
+  color: #63676c;
+  font-weight: 700;
+}
